@@ -29,7 +29,7 @@ public class WidgetTutoPhoneView: UIView {
             imageView.leadingAnchor.constraint(equalTo: phoneView.leadingAnchor, constant: 5*(9/16)),
             imageView.topAnchor.constraint(equalTo: phoneView.topAnchor, constant: 5)
         ])
-        self.phoneView.backgroundColor = UIColor.label
+        self.phoneView.backgroundColor = UIColor.black
         self.phoneView.layer.cornerRadius = 12.5
         self.phoneView.layer.masksToBounds = true
         self.imageView.contentMode = .scaleAspectFit
